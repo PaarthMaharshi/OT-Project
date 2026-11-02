@@ -1,0 +1,9 @@
+numpy>=1.26
+pandas>=2.0
+fastapi>=0.110
+uvicorn>=0.29
+pydantic>=2.0
+scipy>=1.10        # Wilcoxon rank-sum in experiments
+matplotlib>=3.7   # experiment figures
+ortools>=9.8       # CP-SAT exact reference
+# pymoo>=0.6       # optional: cross-checking NSGA-II / hypervolume

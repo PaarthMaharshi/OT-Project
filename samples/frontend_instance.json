@@ -1,0 +1,563 @@
+{
+  "instance": {
+    "name": "SY Computer Engineering - Semester III",
+    "grid": {
+      "days": [
+        "Mon",
+        "Tue",
+        "Wed",
+        "Thu",
+        "Fri"
+      ],
+      "periods": [
+        "9:00 - 10:00",
+        "10:00 - 11:00",
+        "11:00 - 12:00",
+        "12:00 - 1:00",
+        "1:00 - 2:00",
+        "2:00 - 3:00",
+        "3:00 - 4:00",
+        "4:00 - 5:00"
+      ],
+      "lunchPeriod": 4
+    },
+    "groups": [
+      {
+        "id": "gA",
+        "name": "SY-Comp Div A",
+        "strength": 58
+      },
+      {
+        "id": "gB",
+        "name": "SY-Comp Div B",
+        "strength": 52
+      }
+    ],
+    "faculty": [
+      {
+        "id": "f1",
+        "name": "Prof. Mehta",
+        "maxWeekly": 12,
+        "maxDaily": 4,
+        "unavailable": []
+      },
+      {
+        "id": "f2",
+        "name": "Dr. Iyer",
+        "maxWeekly": 12,
+        "maxDaily": 4,
+        "unavailable": []
+      },
+      {
+        "id": "f3",
+        "name": "Prof. Kulkarni",
+        "maxWeekly": 10,
+        "maxDaily": 4,
+        "unavailable": []
+      },
+      {
+        "id": "f4",
+        "name": "Dr. Fernandes",
+        "maxWeekly": 10,
+        "maxDaily": 3,
+        "unavailable": []
+      },
+      {
+        "id": "f5",
+        "name": "Prof. Rao",
+        "maxWeekly": 8,
+        "maxDaily": 3,
+        "unavailable": []
+      },
+      {
+        "id": "f6",
+        "name": "Dr. Shaikh",
+        "maxWeekly": 8,
+        "maxDaily": 3,
+        "unavailable": []
+      }
+    ],
+    "rooms": [
+      {
+        "id": "r1",
+        "name": "CR-101",
+        "capacity": 60,
+        "type": "classroom",
+        "unavailable": []
+      },
+      {
+        "id": "r2",
+        "name": "CR-102",
+        "capacity": 72,
+        "type": "classroom",
+        "unavailable": []
+      },
+      {
+        "id": "r3",
+        "name": "LH-201",
+        "capacity": 120,
+        "type": "classroom",
+        "unavailable": []
+      },
+      {
+        "id": "r4",
+        "name": "Lab A-301",
+        "capacity": 64,
+        "type": "lab",
+        "unavailable": []
+      },
+      {
+        "id": "r5",
+        "name": "Lab B-302",
+        "capacity": 70,
+        "type": "lab",
+        "unavailable": []
+      }
+    ],
+    "offerings": [
+      {
+        "id": "gA-DSA",
+        "subject": "Data Structures",
+        "code": "DSA",
+        "groupIds": [
+          "gA"
+        ],
+        "type": "theory",
+        "sessionsPerWeek": 3,
+        "eligibleFaculty": [
+          "f1",
+          "f2"
+        ]
+      },
+      {
+        "id": "gA-DBMS",
+        "subject": "Database Systems",
+        "code": "DBMS",
+        "groupIds": [
+          "gA"
+        ],
+        "type": "theory",
+        "sessionsPerWeek": 3,
+        "eligibleFaculty": [
+          "f2",
+          "f3"
+        ]
+      },
+      {
+        "id": "gA-OS",
+        "subject": "Operating Systems",
+        "code": "OS",
+        "groupIds": [
+          "gA"
+        ],
+        "type": "theory",
+        "sessionsPerWeek": 3,
+        "eligibleFaculty": [
+          "f3",
+          "f4"
+        ]
+      },
+      {
+        "id": "gA-MATHS",
+        "subject": "Engineering Maths III",
+        "code": "MATHS",
+        "groupIds": [
+          "gA"
+        ],
+        "type": "theory",
+        "sessionsPerWeek": 3,
+        "eligibleFaculty": [
+          "f5",
+          "f6"
+        ]
+      },
+      {
+        "id": "gA-COA",
+        "subject": "Computer Organisation",
+        "code": "COA",
+        "groupIds": [
+          "gA"
+        ],
+        "type": "theory",
+        "sessionsPerWeek": 2,
+        "eligibleFaculty": [
+          "f4",
+          "f1"
+        ]
+      },
+      {
+        "id": "gA-EVS",
+        "subject": "Environmental Studies",
+        "code": "EVS",
+        "groupIds": [
+          "gA"
+        ],
+        "type": "theory",
+        "sessionsPerWeek": 1,
+        "eligibleFaculty": [
+          "f6",
+          "f5"
+        ]
+      },
+      {
+        "id": "gA-DSALAB",
+        "subject": "Data Structures Lab",
+        "code": "DSA LAB",
+        "groupIds": [
+          "gA"
+        ],
+        "type": "lab",
+        "sessionsPerWeek": 1,
+        "eligibleFaculty": [
+          "f1",
+          "f2"
+        ]
+      },
+      {
+        "id": "gA-DBMSLAB",
+        "subject": "Database Lab",
+        "code": "DBMS LAB",
+        "groupIds": [
+          "gA"
+        ],
+        "type": "lab",
+        "sessionsPerWeek": 1,
+        "eligibleFaculty": [
+          "f3",
+          "f2"
+        ]
+      },
+      {
+        "id": "gB-DSA",
+        "subject": "Data Structures",
+        "code": "DSA",
+        "groupIds": [
+          "gB"
+        ],
+        "type": "theory",
+        "sessionsPerWeek": 3,
+        "eligibleFaculty": [
+          "f1",
+          "f2"
+        ]
+      },
+      {
+        "id": "gB-DBMS",
+        "subject": "Database Systems",
+        "code": "DBMS",
+        "groupIds": [
+          "gB"
+        ],
+        "type": "theory",
+        "sessionsPerWeek": 3,
+        "eligibleFaculty": [
+          "f2",
+          "f3"
+        ]
+      },
+      {
+        "id": "gB-OS",
+        "subject": "Operating Systems",
+        "code": "OS",
+        "groupIds": [
+          "gB"
+        ],
+        "type": "theory",
+        "sessionsPerWeek": 3,
+        "eligibleFaculty": [
+          "f3",
+          "f4"
+        ]
+      },
+      {
+        "id": "gB-MATHS",
+        "subject": "Engineering Maths III",
+        "code": "MATHS",
+        "groupIds": [
+          "gB"
+        ],
+        "type": "theory",
+        "sessionsPerWeek": 3,
+        "eligibleFaculty": [
+          "f5",
+          "f6"
+        ]
+      },
+      {
+        "id": "gB-COA",
+        "subject": "Computer Organisation",
+        "code": "COA",
+        "groupIds": [
+          "gB"
+        ],
+        "type": "theory",
+        "sessionsPerWeek": 2,
+        "eligibleFaculty": [
+          "f4",
+          "f1"
+        ]
+      },
+      {
+        "id": "gB-EVS",
+        "subject": "Environmental Studies",
+        "code": "EVS",
+        "groupIds": [
+          "gB"
+        ],
+        "type": "theory",
+        "sessionsPerWeek": 1,
+        "eligibleFaculty": [
+          "f6",
+          "f5"
+        ]
+      },
+      {
+        "id": "gB-DSALAB",
+        "subject": "Data Structures Lab",
+        "code": "DSA LAB",
+        "groupIds": [
+          "gB"
+        ],
+        "type": "lab",
+        "sessionsPerWeek": 1,
+        "eligibleFaculty": [
+          "f1",
+          "f2"
+        ]
+      },
+      {
+        "id": "gB-DBMSLAB",
+        "subject": "Database Lab",
+        "code": "DBMS LAB",
+        "groupIds": [
+          "gB"
+        ],
+        "type": "lab",
+        "sessionsPerWeek": 1,
+        "eligibleFaculty": [
+          "f3",
+          "f2"
+        ]
+      }
+    ],
+    "events": [
+      {
+        "id": "gA-DSA-1",
+        "offeringId": "gA-DSA",
+        "length": 1,
+        "headcount": 58
+      },
+      {
+        "id": "gA-DSA-2",
+        "offeringId": "gA-DSA",
+        "length": 1,
+        "headcount": 58
+      },
+      {
+        "id": "gA-DSA-3",
+        "offeringId": "gA-DSA",
+        "length": 1,
+        "headcount": 58
+      },
+      {
+        "id": "gA-DBMS-1",
+        "offeringId": "gA-DBMS",
+        "length": 1,
+        "headcount": 58
+      },
+      {
+        "id": "gA-DBMS-2",
+        "offeringId": "gA-DBMS",
+        "length": 1,
+        "headcount": 58
+      },
+      {
+        "id": "gA-DBMS-3",
+        "offeringId": "gA-DBMS",
+        "length": 1,
+        "headcount": 58
+      },
+      {
+        "id": "gA-OS-1",
+        "offeringId": "gA-OS",
+        "length": 1,
+        "headcount": 58
+      },
+      {
+        "id": "gA-OS-2",
+        "offeringId": "gA-OS",
+        "length": 1,
+        "headcount": 58
+      },
+      {
+        "id": "gA-OS-3",
+        "offeringId": "gA-OS",
+        "length": 1,
+        "headcount": 58
+      },
+      {
+        "id": "gA-MATHS-1",
+        "offeringId": "gA-MATHS",
+        "length": 1,
+        "headcount": 58
+      },
+      {
+        "id": "gA-MATHS-2",
+        "offeringId": "gA-MATHS",
+        "length": 1,
+        "headcount": 58
+      },
+      {
+        "id": "gA-MATHS-3",
+        "offeringId": "gA-MATHS",
+        "length": 1,
+        "headcount": 58
+      },
+      {
+        "id": "gA-COA-1",
+        "offeringId": "gA-COA",
+        "length": 1,
+        "headcount": 58
+      },
+      {
+        "id": "gA-COA-2",
+        "offeringId": "gA-COA",
+        "length": 1,
+        "headcount": 58
+      },
+      {
+        "id": "gA-EVS-1",
+        "offeringId": "gA-EVS",
+        "length": 1,
+        "headcount": 58
+      },
+      {
+        "id": "gA-DSALAB-1",
+        "offeringId": "gA-DSALAB",
+        "length": 2,
+        "headcount": 58
+      },
+      {
+        "id": "gA-DBMSLAB-1",
+        "offeringId": "gA-DBMSLAB",
+        "length": 2,
+        "headcount": 58
+      },
+      {
+        "id": "gB-DSA-1",
+        "offeringId": "gB-DSA",
+        "length": 1,
+        "headcount": 52
+      },
+      {
+        "id": "gB-DSA-2",
+        "offeringId": "gB-DSA",
+        "length": 1,
+        "headcount": 52
+      },
+      {
+        "id": "gB-DSA-3",
+        "offeringId": "gB-DSA",
+        "length": 1,
+        "headcount": 52
+      },
+      {
+        "id": "gB-DBMS-1",
+        "offeringId": "gB-DBMS",
+        "length": 1,
+        "headcount": 52
+      },
+      {
+        "id": "gB-DBMS-2",
+        "offeringId": "gB-DBMS",
+        "length": 1,
+        "headcount": 52
+      },
+      {
+        "id": "gB-DBMS-3",
+        "offeringId": "gB-DBMS",
+        "length": 1,
+        "headcount": 52
+      },
+      {
+        "id": "gB-OS-1",
+        "offeringId": "gB-OS",
+        "length": 1,
+        "headcount": 52
+      },
+      {
+        "id": "gB-OS-2",
+        "offeringId": "gB-OS",
+        "length": 1,
+        "headcount": 52
+      },
+      {
+        "id": "gB-OS-3",
+        "offeringId": "gB-OS",
+        "length": 1,
+        "headcount": 52
+      },
+      {
+        "id": "gB-MATHS-1",
+        "offeringId": "gB-MATHS",
+        "length": 1,
+        "headcount": 52
+      },
+      {
+        "id": "gB-MATHS-2",
+        "offeringId": "gB-MATHS",
+        "length": 1,
+        "headcount": 52
+      },
+      {
+        "id": "gB-MATHS-3",
+        "offeringId": "gB-MATHS",
+        "length": 1,
+        "headcount": 52
+      },
+      {
+        "id": "gB-COA-1",
+        "offeringId": "gB-COA",
+        "length": 1,
+        "headcount": 52
+      },
+      {
+        "id": "gB-COA-2",
+        "offeringId": "gB-COA",
+        "length": 1,
+        "headcount": 52
+      },
+      {
+        "id": "gB-EVS-1",
+        "offeringId": "gB-EVS",
+        "length": 1,
+        "headcount": 52
+      },
+      {
+        "id": "gB-DSALAB-1",
+        "offeringId": "gB-DSALAB",
+        "length": 2,
+        "headcount": 52
+      },
+      {
+        "id": "gB-DBMSLAB-1",
+        "offeringId": "gB-DBMSLAB",
+        "length": 2,
+        "headcount": 52
+      }
+    ]
+  },
+  "algorithm": "constrained_nsga2",
+  "weights": {
+    "student_gaps": 0.4,
+    "teacher_gaps": 0.3,
+    "room_waste": 0.2,
+    "time_penalty": 0.1
+  },
+  "params": {
+    "pop_size": 60,
+    "evaluations": 3000,
+    "seed": 1,
+    "time_limit_s": 60
+  }
+}

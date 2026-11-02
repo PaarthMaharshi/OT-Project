@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+results/*
+!results/lab/
+frontend/node_modules/
+frontend/dist/
+
+data/
+.claude/

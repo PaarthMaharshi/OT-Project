@@ -1,0 +1,70 @@
+Synthetic lab instance (seed 1)
+5 days x 6 slots
+Rooms:    R1(40), R2(40), R3(40), R4(50), R5(50), R6(90), R7(120), R8(120)
+Groups:   G1(46), G2(48), G3(59), G4(68), G5(26)
+Teachers: T1 unavailable [0, 2, 6, 10, 15, 17], T2 unavailable [3, 9, 12, 22], T3 unavailable [10, 11, 27], T4 unavailable [0, 1, 8, 21], T5 unavailable [2, 8, 16, 18, 20, 25], T6 unavailable [3, 7, 10, 12, 13, 18], T7 unavailable [1, 10, 13, 14, 19, 25], T8 unavailable [5, 7, 9, 15, 21, 25], T9 unavailable [1, 2, 3, 14, 20, 22], T10 unavailable [2, 4, 6, 8, 12, 25]
+Lectures:
+  L1   Optimization Techniques  teacher T1   group G1  x3
+  L2   Machine Learning         teacher T2   group G2  x4
+  L3   Data Structures          teacher T3   group G3  x3
+  L4   Operating Systems        teacher T4   group G4  x4
+  L5   Computer Networks        teacher T5   group G5  x3
+  L6   Linear Algebra           teacher T6   group G1  x4
+  L7   Probability              teacher T7   group G2  x4
+  L8   Compilers                teacher T8   group G3  x3
+  L9   Databases                teacher T9   group G4  x4
+  L10  Computer Vision          teacher T10  group G5  x3
+  L11  Cryptography             teacher T9   group G1  x4
+  L12  Robotics                 teacher T3   group G2  x3
+  L13  Embedded Systems         teacher T3   group G3  x4
+  L14  Graph Theory             teacher T7   group G4  x4
+  L15  Numerical Methods        teacher T9   group G5  x4
+  L16  Signal Processing        teacher T10  group G1  x4
+  L17  Cloud Computing          teacher T2   group G2  x3
+  L18  Information Retrieval    teacher T5   group G3  x3
+  L19  Soft Computing           teacher T9   group G4  x4
+  L20  Game Theory              teacher T5   group G5  x4
+  L21  Parallel Computing       teacher T6   group G1  x4
+  L22  Formal Methods           teacher T1   group G2  x3
+  L23  Deep Learning            teacher T7   group G3  x3
+  L24  Bioinformatics           teacher T10  group G4  x4
+  L25  Research Methodology     teacher T9   group G5  x3
+Total sessions: 89 
+
+310 runs, 11 parallel workers, budget 10000 evaluations, seeds 1..10
+  10/310 runs done (9s)
+  20/310 runs done (15s)
+  30/310 runs done (38s)
+  40/310 runs done (63s)
+  50/310 runs done (86s)
+  60/310 runs done (112s)
+  70/310 runs done (151s)
+  80/310 runs done (170s)
+  90/310 runs done (184s)
+  100/310 runs done (194s)
+  110/310 runs done (216s)
+  120/310 runs done (231s)
+  130/310 runs done (243s)
+  140/310 runs done (255s)
+  150/310 runs done (266s)
+  160/310 runs done (275s)
+  170/310 runs done (287s)
+  180/310 runs done (300s)
+  190/310 runs done (308s)
+  200/310 runs done (325s)
+  210/310 runs done (355s)
+  220/310 runs done (393s)
+  230/310 runs done (431s)
+  240/310 runs done (457s)
+  250/310 runs done (472s)
+  260/310 runs done (480s)
+  270/310 runs done (487s)
+  280/310 runs done (515s)
+  290/310 runs done (547s)
+  300/310 runs done (572s)
+  310/310 runs done (609s)
+reference front ('room_waste', 'time_penalty'): 6 points (merged from 180 runs); ideal [1464.0, 5.0], nadir [1614.0, 10.0], fallback axes []
+reference front ('student_gaps', 'teacher_gaps'): 1 points (merged from 100 runs); ideal [0.0, 2.0], nadir [32.0, 36.0], fallback axes [0, 1]
+reference front ('student_gaps', 'teacher_gaps', 'room_waste', 'time_penalty'): 43 points (merged from 30 runs); ideal [0.0, 2.0, 1464.0, 7.0], nadir [12.0, 13.0, 1994.0, 23.0], fallback axes []
+
+Done in 636s -> D:\OT project\results\lab

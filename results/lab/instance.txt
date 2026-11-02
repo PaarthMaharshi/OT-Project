@@ -1,0 +1,32 @@
+Synthetic lab instance (seed 1)
+5 days x 6 slots
+Rooms:    R1(40), R2(40), R3(40), R4(50), R5(50), R6(90), R7(120), R8(120)
+Groups:   G1(46), G2(48), G3(59), G4(68), G5(26)
+Teachers: T1 unavailable [0, 2, 6, 10, 15, 17], T2 unavailable [3, 9, 12, 22], T3 unavailable [10, 11, 27], T4 unavailable [0, 1, 8, 21], T5 unavailable [2, 8, 16, 18, 20, 25], T6 unavailable [3, 7, 10, 12, 13, 18], T7 unavailable [1, 10, 13, 14, 19, 25], T8 unavailable [5, 7, 9, 15, 21, 25], T9 unavailable [1, 2, 3, 14, 20, 22], T10 unavailable [2, 4, 6, 8, 12, 25]
+Lectures:
+  L1   Optimization Techniques  teacher T1   group G1  x3
+  L2   Machine Learning         teacher T2   group G2  x4
+  L3   Data Structures          teacher T3   group G3  x3
+  L4   Operating Systems        teacher T4   group G4  x4
+  L5   Computer Networks        teacher T5   group G5  x3
+  L6   Linear Algebra           teacher T6   group G1  x4
+  L7   Probability              teacher T7   group G2  x4
+  L8   Compilers                teacher T8   group G3  x3
+  L9   Databases                teacher T9   group G4  x4
+  L10  Computer Vision          teacher T10  group G5  x3
+  L11  Cryptography             teacher T9   group G1  x4
+  L12  Robotics                 teacher T3   group G2  x3
+  L13  Embedded Systems         teacher T3   group G3  x4
+  L14  Graph Theory             teacher T7   group G4  x4
+  L15  Numerical Methods        teacher T9   group G5  x4
+  L16  Signal Processing        teacher T10  group G1  x4
+  L17  Cloud Computing          teacher T2   group G2  x3
+  L18  Information Retrieval    teacher T5   group G3  x3
+  L19  Soft Computing           teacher T9   group G4  x4
+  L20  Game Theory              teacher T5   group G5  x4
+  L21  Parallel Computing       teacher T6   group G1  x4
+  L22  Formal Methods           teacher T1   group G2  x3
+  L23  Deep Learning            teacher T7   group G3  x3
+  L24  Bioinformatics           teacher T10  group G4  x4
+  L25  Research Methodology     teacher T9   group G5  x3
+Total sessions: 89

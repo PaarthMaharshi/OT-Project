@@ -1,0 +1,311 @@
+study,label,algorithm,seed,objectives,evaluations,runtime_s,found_feasible,feasible_rate,front_size,hv,igd,spacing,reference_points_hit,best_room_waste,best_time_penalty,best_student_gaps,best_teacher_gaps
+ablation,"Deb rules, no repair",constrained_nsga2,1,room_waste+time_penalty,10000,6.958,0,0.0,0,0.0,nan,nan,0,,,,
+ablation,"Deb rules, no repair",constrained_nsga2,2,room_waste+time_penalty,10000,4.203,0,0.0,0,0.0,nan,nan,0,,,,
+ablation,"Deb rules, no repair",constrained_nsga2,3,room_waste+time_penalty,10000,5.179,0,0.0,0,0.0,nan,nan,0,,,,
+ablation,"Deb rules, no repair",constrained_nsga2,4,room_waste+time_penalty,10000,4.179,0,0.0,0,0.0,nan,nan,0,,,,
+ablation,"Deb rules, no repair",constrained_nsga2,5,room_waste+time_penalty,10000,4.186,0,0.0,0,0.0,nan,nan,0,,,,
+ablation,"Deb rules, no repair",constrained_nsga2,6,room_waste+time_penalty,10000,6.615,0,0.0,0,0.0,nan,nan,0,,,,
+ablation,"Deb rules, no repair",constrained_nsga2,7,room_waste+time_penalty,10000,4.26,0,0.0,0,0.0,nan,nan,0,,,,
+ablation,"Deb rules, no repair",constrained_nsga2,8,room_waste+time_penalty,10000,4.499,0,0.0,0,0.0,nan,nan,0,,,,
+ablation,"Deb rules, no repair",constrained_nsga2,9,room_waste+time_penalty,10000,6.761,0,0.0,0,0.0,nan,nan,0,,,,
+ablation,"Deb rules, no repair",constrained_nsga2,10,room_waste+time_penalty,10000,6.562,0,0.0,0,0.0,nan,nan,0,,,,
+ablation,Penalty + repair,nsga2,1,room_waste+time_penalty,10000,24.666,1,0.9988,7,0.15000000000000008,0.40408058316241546,0.10690449676496974,0,1464.0,6.0,,
+ablation,Penalty + repair,nsga2,2,room_waste+time_penalty,10000,19.881,1,0.9985,2,0.0,0.8030227207771444,0.0,0,1464.0,11.0,,
+ablation,Penalty + repair,nsga2,3,room_waste+time_penalty,10000,18.086,1,0.998,5,0.2300000000000001,0.36063773032202534,9.205483015737869e-17,0,1464.0,8.0,,
+ablation,Penalty + repair,nsga2,4,room_waste+time_penalty,10000,19.935,1,0.9974,4,0.05000000000000006,0.6405491455083845,0.10000000000000009,0,1464.0,10.0,,
+ablation,Penalty + repair,nsga2,5,room_waste+time_penalty,10000,31.38,1,0.9978,5,0.07000000000000006,0.5566302905804646,0.0894427190999916,0,1464.0,9.0,,
+ablation,Penalty + repair,nsga2,6,room_waste+time_penalty,10000,19.873,1,0.9971,5,0.11000000000000004,0.5355792511872274,1.1775693440128312e-16,0,1464.0,9.0,,
+ablation,Penalty + repair,nsga2,7,room_waste+time_penalty,10000,23.16,1,0.9975,4,0.05000000000000006,0.4880328774929151,0.20000000000000004,0,1464.0,8.0,,
+ablation,Penalty + repair,nsga2,8,room_waste+time_penalty,10000,26.346,1,0.9964,4,0.0,0.9119620632894251,0.1,0,1464.0,11.0,,
+ablation,Penalty + repair,nsga2,9,room_waste+time_penalty,10000,22.576,1,0.9975,4,0.09000000000000002,0.5861982121843937,0.19148542155126755,0,1464.0,9.0,,
+ablation,Penalty + repair,nsga2,10,room_waste+time_penalty,10000,28.386,1,0.9989,6,0.13000000000000006,0.4726779962499649,1.1102230246251565e-16,0,1464.0,8.0,,
+main,Constrained NSGA-II,constrained_nsga2,1,student_gaps+teacher_gaps,10000,25.708,1,0.9989,2,1.1443750000000004,0.0666090843087994,0.0,0,,,0.0,4.0
+main,Constrained NSGA-II,constrained_nsga2,2,student_gaps+teacher_gaps,10000,25.713,1,0.9974,2,1.1425367647058826,0.08823529411764706,0.0,0,,,0.0,4.0
+main,Constrained NSGA-II,constrained_nsga2,3,student_gaps+teacher_gaps,10000,21.182,1,0.9974,2,1.1434558823529413,0.08582807007300552,0.0,0,,,0.0,4.0
+main,Constrained NSGA-II,constrained_nsga2,4,student_gaps+teacher_gaps,10000,24.63,1,0.9969,3,1.1730514705882356,0.0666090843087994,0.03396178054056623,0,,,0.0,3.0
+main,Constrained NSGA-II,constrained_nsga2,5,student_gaps+teacher_gaps,10000,22.728,1,0.9985,3,1.1748897058823533,0.0666090843087994,6.938893903907228e-18,0,,,0.0,3.0
+main,Constrained NSGA-II,constrained_nsga2,6,student_gaps+teacher_gaps,10000,16.26,1,0.9986,2,1.1767279411764708,0.04291403503650276,0.0,0,,,0.0,3.0
+main,Constrained NSGA-II,constrained_nsga2,7,student_gaps+teacher_gaps,10000,17.968,1,0.9981,1,1.1129411764705885,0.08823529411764706,nan,0,,,0.0,5.0
+main,Constrained NSGA-II,constrained_nsga2,8,student_gaps+teacher_gaps,10000,17.267,1,0.9978,2,1.1767279411764708,0.04291403503650276,0.0,0,,,0.0,3.0
+main,Constrained NSGA-II,constrained_nsga2,9,student_gaps+teacher_gaps,10000,22.015,1,0.9993,2,1.1767279411764708,0.04291403503650276,0.0,0,,,0.0,3.0
+main,Constrained NSGA-II,constrained_nsga2,10,student_gaps+teacher_gaps,10000,24.448,1,0.9975,1,1.1776470588235297,0.029411764705882353,nan,0,,,0.0,3.0
+main,Goal Programming,goal_programming,1,student_gaps+teacher_gaps,10000,11.546,1,1.0,3,1.0986029411764708,0.1106764207609586,0.1751154309122946,0,,,0.0,3.0
+main,Goal Programming,goal_programming,2,student_gaps+teacher_gaps,10000,10.565,1,0.9999,3,1.0403308823529414,0.15034247596023778,0.11249839804062567,0,,,0.0,5.0
+main,Goal Programming,goal_programming,3,student_gaps+teacher_gaps,10000,9.894,1,0.9998,3,1.0644117647058824,0.1332181686175988,0.33537258283809146,0,,,0.0,4.0
+main,Goal Programming,goal_programming,4,student_gaps+teacher_gaps,10000,9.722,1,0.9999,2,1.1434558823529415,0.0666090843087994,0.0,0,,,0.0,4.0
+main,Goal Programming,goal_programming,5,student_gaps+teacher_gaps,10000,11.728,1,0.9999,4,1.0846323529411765,0.15034247596023778,0.29015162642494613,0,,,0.0,4.0
+main,Goal Programming,goal_programming,6,student_gaps+teacher_gaps,10000,15.358,1,1.0,1,1.1776470588235297,0.029411764705882353,nan,0,,,0.0,3.0
+main,Goal Programming,goal_programming,7,student_gaps+teacher_gaps,10000,9.53,1,0.9999,3,1.0550367647058825,0.15034247596023778,0.18785109861500687,0,,,0.0,5.0
+main,Goal Programming,goal_programming,8,student_gaps+teacher_gaps,10000,15.196,1,1.0,3,1.0956617647058826,0.1504323534012115,0.3247595264191645,0,,,0.0,4.0
+main,Goal Programming,goal_programming,9,student_gaps+teacher_gaps,10000,15.049,1,0.9999,3,1.0478676470588235,0.15034247596023778,0.2844299120272421,0,,,0.0,4.0
+main,Goal Programming,goal_programming,10,student_gaps+teacher_gaps,10000,13.028,1,1.0,3,1.0725000000000002,0.1744000002232072,0.3215756094934864,0,,,1.0,3.0
+main,Lexicographic,lexicographic,1,student_gaps+teacher_gaps,10000,16.48,1,0.9998,1,1.1129411764705885,0.08823529411764706,nan,0,,,0.0,5.0
+main,Lexicographic,lexicographic,2,student_gaps+teacher_gaps,10000,9.675,1,0.9999,1,1.0805882352941178,0.11764705882352941,nan,0,,,0.0,6.0
+main,Lexicographic,lexicographic,3,student_gaps+teacher_gaps,10000,16.327,1,0.9999,1,1.081323529411765,0.09360571365054424,nan,0,,,1.0,5.0
+main,Lexicographic,lexicographic,4,student_gaps+teacher_gaps,10000,11.65,1,0.9998,1,1.1129411764705885,0.08823529411764706,nan,0,,,0.0,5.0
+main,Lexicographic,lexicographic,5,student_gaps+teacher_gaps,10000,9.878,1,0.9999,1,1.145294117647059,0.058823529411764705,nan,0,,,0.0,4.0
+main,Lexicographic,lexicographic,6,student_gaps+teacher_gaps,10000,11.696,1,0.9999,1,1.1129411764705885,0.08823529411764706,nan,0,,,0.0,5.0
+main,Lexicographic,lexicographic,7,student_gaps+teacher_gaps,10000,11.599,1,0.9999,1,1.0805882352941178,0.11764705882352941,nan,0,,,0.0,6.0
+main,Lexicographic,lexicographic,8,student_gaps+teacher_gaps,10000,10.323,1,0.9998,1,1.1776470588235297,0.029411764705882353,nan,0,,,0.0,3.0
+main,Lexicographic,lexicographic,9,student_gaps+teacher_gaps,10000,10.566,1,0.9998,1,1.1129411764705885,0.08823529411764706,nan,0,,,0.0,5.0
+main,Lexicographic,lexicographic,10,student_gaps+teacher_gaps,10000,10.968,1,0.9999,1,1.1129411764705885,0.08823529411764706,nan,0,,,0.0,5.0
+main,MOEA/D,moead,1,student_gaps+teacher_gaps,10000,31.85,1,0.9986,2,1.1443750000000004,0.0666090843087994,0.0,0,,,0.0,4.0
+main,MOEA/D,moead,2,student_gaps+teacher_gaps,10000,43.56,1,0.9988,2,1.1767279411764708,0.04291403503650276,0.0,0,,,0.0,3.0
+main,MOEA/D,moead,3,student_gaps+teacher_gaps,10000,31.709,1,0.9979,2,1.1425367647058826,0.0666090843087994,0.0,0,,,0.0,4.0
+main,MOEA/D,moead,4,student_gaps+teacher_gaps,10000,27.875,1,0.9989,1,1.1776470588235297,0.029411764705882353,nan,0,,,0.0,3.0
+main,MOEA/D,moead,5,student_gaps+teacher_gaps,10000,31.347,1,0.9988,2,1.1432720588235297,0.0666090843087994,0.0,0,,,1.0,3.0
+main,MOEA/D,moead,6,student_gaps+teacher_gaps,10000,42.197,1,0.9986,2,1.1721323529411767,0.04291403503650276,0.0,0,,,0.0,3.0
+main,MOEA/D,moead,7,student_gaps+teacher_gaps,10000,34.438,1,0.9989,1,1.1776470588235297,0.029411764705882353,nan,0,,,0.0,3.0
+main,MOEA/D,moead,8,student_gaps+teacher_gaps,10000,30.727,1,0.9989,1,1.1776470588235297,0.029411764705882353,nan,0,,,0.0,3.0
+main,MOEA/D,moead,9,student_gaps+teacher_gaps,10000,38.351,1,0.9989,2,1.1758088235294122,0.04291403503650276,0.0,0,,,0.0,3.0
+main,MOEA/D,moead,10,student_gaps+teacher_gaps,10000,41.19,1,0.9986,3,1.205404411764706,0.04291403503650276,0.036084391824351615,0,,,0.0,2.0
+main,MOMA,moma,1,student_gaps+teacher_gaps,10000,18.607,1,0.9985,3,1.0462132352941178,0.1504323534012115,0.0169808902702831,0,,,1.0,6.0
+main,MOMA,moma,2,student_gaps+teacher_gaps,10000,19.516,1,0.9983,4,0.9693750000000002,0.2162564877919521,0.16680655938768654,0,,,2.0,7.0
+main,MOMA,moma,3,student_gaps+teacher_gaps,10000,26.615,1,0.997,5,0.9713970588235296,0.2357030568577988,0.05261336417646563,0,,,1.0,8.0
+main,MOMA,moma,4,student_gaps+teacher_gaps,10000,29.175,1,0.9976,5,0.948419117647059,0.34339593278349867,0.051470588235294136,0,,,1.0,8.0
+main,MOMA,moma,5,student_gaps+teacher_gaps,10000,25.883,1,0.9958,6,0.9287500000000002,0.3073813049816939,0.029472975520700797,0,,,2.0,8.0
+main,MOMA,moma,6,student_gaps+teacher_gaps,10000,15.248,1,0.9991,5,1.0592647058823532,0.19982725292639825,0.030333667430064985,0,,,1.0,5.0
+main,MOMA,moma,7,student_gaps+teacher_gaps,10000,16.169,1,0.9985,3,1.0397794117647061,0.1597890721477995,0.07429139493248861,0,,,1.0,6.0
+main,MOMA,moma,8,student_gaps+teacher_gaps,10000,20.689,1,0.9971,4,1.0331617647058826,0.19558858082676248,0.030483683734884186,0,,,2.0,5.0
+main,MOMA,moma,9,student_gaps+teacher_gaps,10000,17.048,1,0.9973,3,1.0377573529411768,0.1597890721477995,0.018042195912175808,0,,,2.0,5.0
+main,MOMA,moma,10,student_gaps+teacher_gaps,10000,15.245,1,0.9986,5,1.0287500000000003,0.2145701751825138,0.02527155714130059,0,,,1.0,6.0
+main,MOSA,mosa,1,student_gaps+teacher_gaps,10000,12.81,1,0.9999,1,1.1776470588235297,0.029411764705882353,nan,0,,,0.0,3.0
+main,MOSA,mosa,2,student_gaps+teacher_gaps,10000,18.25,1,1.0,1,1.1776470588235297,0.029411764705882353,nan,0,,,0.0,3.0
+main,MOSA,mosa,3,student_gaps+teacher_gaps,10000,12.137,1,0.9996,1,1.1776470588235297,0.029411764705882353,nan,0,,,0.0,3.0
+main,MOSA,mosa,4,student_gaps+teacher_gaps,10000,11.038,1,1.0,1,1.2100000000000002,0.0,nan,1,,,0.0,2.0
+main,MOSA,mosa,5,student_gaps+teacher_gaps,10000,16.628,1,1.0,1,1.1776470588235297,0.029411764705882353,nan,0,,,0.0,3.0
+main,MOSA,mosa,6,student_gaps+teacher_gaps,10000,12.963,1,0.9999,1,1.2100000000000002,0.0,nan,1,,,0.0,2.0
+main,MOSA,mosa,7,student_gaps+teacher_gaps,10000,10.652,1,0.9999,2,1.2090808823529413,0.029411764705882353,0.0,0,,,0.0,2.0
+main,MOSA,mosa,8,student_gaps+teacher_gaps,10000,13.904,1,0.9998,2,1.1748897058823533,0.058823529411764705,0.0,0,,,0.0,3.0
+main,MOSA,mosa,9,student_gaps+teacher_gaps,10000,12.865,1,0.9999,1,1.1776470588235297,0.029411764705882353,nan,0,,,0.0,3.0
+main,MOSA,mosa,10,student_gaps+teacher_gaps,10000,17.798,1,0.9999,2,1.2090808823529413,0.029411764705882353,0.0,0,,,0.0,2.0
+main,NSGA-II (penalty),nsga2,1,student_gaps+teacher_gaps,10000,6.197,0,0.0,0,0.0,nan,nan,0,,,,
+main,NSGA-II (penalty),nsga2,2,student_gaps+teacher_gaps,10000,6.003,0,0.0,0,0.0,nan,nan,0,,,,
+main,NSGA-II (penalty),nsga2,3,student_gaps+teacher_gaps,10000,5.225,0,0.0,0,0.0,nan,nan,0,,,,
+main,NSGA-II (penalty),nsga2,4,student_gaps+teacher_gaps,10000,5.829,0,0.0,0,0.0,nan,nan,0,,,,
+main,NSGA-II (penalty),nsga2,5,student_gaps+teacher_gaps,10000,5.479,0,0.0,0,0.0,nan,nan,0,,,,
+main,NSGA-II (penalty),nsga2,6,student_gaps+teacher_gaps,10000,7.023,0,0.0,0,0.0,nan,nan,0,,,,
+main,NSGA-II (penalty),nsga2,7,student_gaps+teacher_gaps,10000,5.168,0,0.0,0,0.0,nan,nan,0,,,,
+main,NSGA-II (penalty),nsga2,8,student_gaps+teacher_gaps,10000,6.246,0,0.0,0,0.0,nan,nan,0,,,,
+main,NSGA-II (penalty),nsga2,9,student_gaps+teacher_gaps,10000,6.783,0,0.0,0,0.0,nan,nan,0,,,,
+main,NSGA-II (penalty),nsga2,10,student_gaps+teacher_gaps,10000,6.585,0,0.0,0,0.0,nan,nan,0,,,,
+main,SPEA2,spea2,1,student_gaps+teacher_gaps,10000,25.127,1,0.9984,3,1.171213235294118,0.0666090843087994,0.037145697466244305,0,,,0.0,3.0
+main,SPEA2,spea2,2,student_gaps+teacher_gaps,10000,21.382,1,0.9983,2,1.1748897058823533,0.04291403503650276,0.0,0,,,0.0,3.0
+main,SPEA2,spea2,3,student_gaps+teacher_gaps,10000,18.965,1,0.9988,3,1.1684558823529416,0.09360571365054424,0.015919584628390392,0,,,0.0,3.0
+main,SPEA2,spea2,4,student_gaps+teacher_gaps,10000,23.003,1,0.9981,2,1.2081617647058824,0.03125,0.0,0,,,0.0,2.0
+main,SPEA2,spea2,5,student_gaps+teacher_gaps,10000,23.917,1,0.9982,3,1.1693750000000003,0.0666090843087994,0.10188534162169866,0,,,0.0,3.0
+main,SPEA2,spea2,6,student_gaps+teacher_gaps,10000,30.965,1,0.9972,5,1.1131250000000001,0.19982725292639825,0.03988165749653944,0,,,0.0,4.0
+main,SPEA2,spea2,7,student_gaps+teacher_gaps,10000,19.726,1,0.9983,2,1.110919117647059,0.09360571365054424,0.0,0,,,1.0,4.0
+main,SPEA2,spea2,8,student_gaps+teacher_gaps,10000,21.045,1,0.9984,3,1.1739705882352944,0.0666090843087994,0.018042195912175808,0,,,0.0,3.0
+main,SPEA2,spea2,9,student_gaps+teacher_gaps,10000,24.341,1,0.9981,2,1.1443750000000004,0.0666090843087994,0.0,0,,,0.0,4.0
+main,SPEA2,spea2,10,student_gaps+teacher_gaps,10000,36.974,1,0.9978,3,1.1054044117647062,0.12172671419958311,0.036084391824351615,0,,,1.0,4.0
+main,Weighted Sum,weighted_sum,1,student_gaps+teacher_gaps,10000,11.253,1,0.9999,2,1.1702941176470592,0.06907461113255858,0.0,0,,,0.0,3.0
+main,Weighted Sum,weighted_sum,2,student_gaps+teacher_gaps,10000,10.785,1,0.9999,2,1.1397794117647062,0.0666090843087994,0.0,0,,,0.0,4.0
+main,Weighted Sum,weighted_sum,3,student_gaps+teacher_gaps,10000,12.09,1,0.9998,2,1.1989705882352943,0.09375,0.0,0,,,0.0,2.0
+main,Weighted Sum,weighted_sum,4,student_gaps+teacher_gaps,10000,15.089,1,1.0,3,1.1870220588235296,0.06907461113255858,0.23667115814207085,0,,,0.0,2.0
+main,Weighted Sum,weighted_sum,5,student_gaps+teacher_gaps,10000,13.116,1,0.9999,2,1.1758088235294122,0.058823529411764705,0.0,0,,,0.0,3.0
+main,Weighted Sum,weighted_sum,6,student_gaps+teacher_gaps,10000,13.736,1,0.9999,2,1.2026470588235296,0.03125,0.0,0,,,0.0,2.0
+main,Weighted Sum,weighted_sum,7,student_gaps+teacher_gaps,10000,9.626,1,0.9998,2,1.172132352941177,0.08823529411764706,0.0,0,,,0.0,3.0
+main,Weighted Sum,weighted_sum,8,student_gaps+teacher_gaps,10000,9.706,1,0.9999,2,1.1721323529411767,0.04291403503650276,0.0,0,,,0.0,3.0
+main,Weighted Sum,weighted_sum,9,student_gaps+teacher_gaps,10000,12.508,1,0.9997,2,1.1574264705882356,0.058823529411764705,0.0,0,,,0.0,3.0
+main,Weighted Sum,weighted_sum,10,student_gaps+teacher_gaps,10000,14.619,1,0.9996,2,1.1443750000000004,0.0666090843087994,0.0,0,,,0.0,4.0
+main,eps-Constraint,eps_constraint,1,student_gaps+teacher_gaps,10000,9.327,1,0.9998,3,1.1361029411764707,0.08582807007300552,0.06792356108113246,0,,,0.0,4.0
+main,eps-Constraint,eps_constraint,2,student_gaps+teacher_gaps,10000,15.037,1,1.0,3,1.1388602941176473,0.1106764207609586,0.03502308618245891,0,,,0.0,4.0
+main,eps-Constraint,eps_constraint,3,student_gaps+teacher_gaps,10000,10.435,1,0.9999,3,1.1324264705882354,0.1332181686175988,0.016980890270283107,0,,,0.0,4.0
+main,eps-Constraint,eps_constraint,4,student_gaps+teacher_gaps,10000,12.256,1,0.9998,2,1.1565073529411767,0.058823529411764705,0.0,0,,,0.0,3.0
+main,eps-Constraint,eps_constraint,5,student_gaps+teacher_gaps,10000,13.259,1,1.0,2,1.134264705882353,0.11764705882352941,0.0,0,,,0.0,4.0
+main,eps-Constraint,eps_constraint,6,student_gaps+teacher_gaps,10000,9.58,1,0.9999,3,1.1583455882352944,0.06907461113255858,0.2037706832433973,0,,,0.0,3.0
+main,eps-Constraint,eps_constraint,7,student_gaps+teacher_gaps,10000,9.561,1,0.9998,3,1.1537500000000003,0.0666090843087994,0.029716557972995467,0,,,0.0,3.0
+main,eps-Constraint,eps_constraint,8,student_gaps+teacher_gaps,10000,9.295,1,0.9999,3,1.1333455882352943,0.08582807007300552,0.16980890270283108,0,,,0.0,4.0
+main,eps-Constraint,eps_constraint,9,student_gaps+teacher_gaps,10000,11.958,1,0.9998,4,1.123419117647059,0.10812824389597606,0.3290441176470588,0,,,0.0,3.0
+main,eps-Constraint,eps_constraint,10,student_gaps+teacher_gaps,10000,11.507,1,1.0,3,1.1693750000000003,0.0666090843087994,0.03183916925678082,0,,,0.0,3.0
+main2,Constrained NSGA-II,constrained_nsga2,1,room_waste+time_penalty,10000,23.053,1,0.9965,6,0.2500000000000001,0.30236892706218255,3.510833468576701e-17,0,1464.0,7.0,,
+main2,Constrained NSGA-II,constrained_nsga2,2,room_waste+time_penalty,10000,28.449,1,0.9985,2,0.0,0.8030227207771444,0.0,0,1464.0,11.0,,
+main2,Constrained NSGA-II,constrained_nsga2,3,room_waste+time_penalty,10000,20.753,1,0.9982,3,0.21000000000000005,0.47519442717789584,1.3597399555105182e-16,0,1464.0,9.0,,
+main2,Constrained NSGA-II,constrained_nsga2,4,room_waste+time_penalty,10000,20.023,1,0.9974,4,0.05000000000000006,0.6405491455083845,0.10000000000000009,0,1464.0,10.0,,
+main2,Constrained NSGA-II,constrained_nsga2,5,room_waste+time_penalty,10000,19.348,1,0.9982,3,0.21000000000000005,0.47519442717789584,0.1154700538379251,0,1464.0,9.0,,
+main2,Constrained NSGA-II,constrained_nsga2,6,room_waste+time_penalty,10000,26.607,1,0.9971,5,0.11000000000000004,0.5355792511872274,1.1775693440128312e-16,0,1464.0,9.0,,
+main2,Constrained NSGA-II,constrained_nsga2,7,room_waste+time_penalty,10000,20.563,1,0.9975,4,0.05000000000000006,0.4880328774929151,0.20000000000000004,0,1464.0,8.0,,
+main2,Constrained NSGA-II,constrained_nsga2,8,room_waste+time_penalty,10000,28.179,1,0.9964,4,0.0,0.9119620632894251,0.1,0,1464.0,11.0,,
+main2,Constrained NSGA-II,constrained_nsga2,9,room_waste+time_penalty,10000,26.546,1,0.9975,4,0.09000000000000002,0.5861982121843937,0.19148542155126755,0,1464.0,9.0,,
+main2,Constrained NSGA-II,constrained_nsga2,10,room_waste+time_penalty,10000,20.322,1,0.9989,6,0.13000000000000006,0.4726779962499649,1.1102230246251565e-16,0,1464.0,8.0,,
+main2,Goal Programming,goal_programming,1,room_waste+time_penalty,10000,9.798,1,1.0,4,0.03000000000000003,0.7417333986225246,1.6360521589077368,0,1464.0,9.0,,
+main2,Goal Programming,goal_programming,2,room_waste+time_penalty,10000,12.36,1,1.0,3,0.05000000000000006,0.6660135462583915,1.1162105204332764,0,1464.0,8.0,,
+main2,Goal Programming,goal_programming,3,room_waste+time_penalty,10000,12.948,1,0.9999,4,0.0,0.8080902247863434,1.689181261242657,0,1464.0,8.0,,
+main2,Goal Programming,goal_programming,4,room_waste+time_penalty,10000,12.97,1,0.9997,3,0.0,0.8192185759670831,1.6935607896229021,0,1464.0,9.0,,
+main2,Goal Programming,goal_programming,5,room_waste+time_penalty,10000,9.899,1,0.9999,3,0.0,0.8192185759670831,1.501110699893027,0,1464.0,9.0,,
+main2,Goal Programming,goal_programming,6,room_waste+time_penalty,10000,9.497,1,1.0,4,0.0,0.8012446002271828,1.6248076809271923,0,1494.0,8.0,,
+main2,Goal Programming,goal_programming,7,room_waste+time_penalty,10000,11.667,1,0.9999,3,0.07000000000000006,0.6235160475677812,2.193931022920578,0,1464.0,9.0,,
+main2,Goal Programming,goal_programming,8,room_waste+time_penalty,10000,9.762,1,1.0,3,0.05000000000000006,0.6279294089245508,1.3856406460551018,0,1494.0,8.0,,
+main2,Goal Programming,goal_programming,9,room_waste+time_penalty,10000,16.095,1,0.9997,3,0.03000000000000003,0.7417333986225246,1.4626206819470515,0,1494.0,8.0,,
+main2,Goal Programming,goal_programming,10,room_waste+time_penalty,10000,16.809,1,0.9998,2,0.15000000000000005,0.5403634945903145,0.0,0,1494.0,9.0,,
+main2,Lexicographic,lexicographic,1,room_waste+time_penalty,10000,10.198,1,1.0,1,0.0,1.3583243181008051,nan,0,1554.0,14.0,,
+main2,Lexicographic,lexicographic,2,room_waste+time_penalty,10000,14.368,1,1.0,1,0.0,1.822864374931217,nan,0,1614.0,16.0,,
+main2,Lexicographic,lexicographic,3,room_waste+time_penalty,10000,19.689,1,1.0,1,0.0,1.2176728361910425,nan,0,1584.0,13.0,,
+main2,Lexicographic,lexicographic,4,room_waste+time_penalty,10000,14.428,1,1.0,1,0.0,0.9794983874768005,nan,0,1614.0,11.0,,
+main2,Lexicographic,lexicographic,5,room_waste+time_penalty,10000,14.564,1,1.0,1,0.0,1.3979604804892445,nan,0,1584.0,14.0,,
+main2,Lexicographic,lexicographic,6,room_waste+time_penalty,10000,10.334,1,1.0,1,0.0,1.735026718283887,nan,0,1524.0,16.0,,
+main2,Lexicographic,lexicographic,7,room_waste+time_penalty,10000,20.417,1,0.9999,1,0.0,1.750319038517328,nan,0,1494.0,16.0,,
+main2,Lexicographic,lexicographic,8,room_waste+time_penalty,10000,20.307,1,0.9999,1,0.0,0.8846692110820508,nan,0,1584.0,11.0,,
+main2,Lexicographic,lexicographic,9,room_waste+time_penalty,10000,20.436,1,0.9998,1,0.0,0.8846692110820508,nan,0,1584.0,11.0,,
+main2,Lexicographic,lexicographic,10,room_waste+time_penalty,10000,10.366,1,0.9998,1,0.0,1.5493333064123507,nan,0,1554.0,15.0,,
+main2,MOEA/D,moead,1,room_waste+time_penalty,10000,39.013,1,0.9982,6,0.11000000000000011,0.40408058316241546,0.2338090388900025,0,1464.0,6.0,,
+main2,MOEA/D,moead,2,room_waste+time_penalty,10000,35.752,1,0.9988,8,0.13000000000000006,0.44721359549995787,9.614813431917819e-17,0,1464.0,6.0,,
+main2,MOEA/D,moead,3,room_waste+time_penalty,10000,39.187,1,0.9988,7,0.05000000000000006,0.5639768827809116,1.2204039592116465e-16,0,1464.0,7.0,,
+main2,MOEA/D,moead,4,room_waste+time_penalty,10000,37.098,1,0.9987,6,0.5500000000000002,0.06666666666666667,0.10327955589886441,4,1464.0,5.0,,
+main2,MOEA/D,moead,5,room_waste+time_penalty,10000,35.305,1,0.9987,6,0.17000000000000007,0.3571592214039621,1.0532500405730103e-16,0,1464.0,6.0,,
+main2,MOEA/D,moead,6,room_waste+time_penalty,10000,31.171,1,0.9982,7,0.11000000000000004,0.48670420531638464,5.551115123125783e-17,0,1464.0,7.0,,
+main2,MOEA/D,moead,7,room_waste+time_penalty,10000,31.837,1,0.9984,7,0.2500000000000001,0.28284271247461906,3.925231146709438e-17,0,1464.0,6.0,,
+main2,MOEA/D,moead,8,room_waste+time_penalty,10000,29.663,1,0.999,7,0.2500000000000001,0.2690355937288492,0.07559289460184546,0,1464.0,5.0,,
+main2,MOEA/D,moead,9,room_waste+time_penalty,10000,44.717,1,0.9988,7,0.2500000000000001,0.28284271247461906,0.07559289460184551,0,1464.0,6.0,,
+main2,MOEA/D,moead,10,room_waste+time_penalty,10000,44.523,1,0.9991,8,0.13000000000000006,0.44721359549995787,0.07071067811865481,0,1464.0,6.0,,
+main2,MOMA,moma,1,room_waste+time_penalty,10000,26.273,1,0.9981,3,0.0,1.3307207714981335,0.34641016151377535,0,1494.0,13.0,,
+main2,MOMA,moma,2,room_waste+time_penalty,10000,20.972,1,0.9987,4,0.0,1.3727125121760297,0.1914854215512674,0,1494.0,13.0,,
+main2,MOMA,moma,3,room_waste+time_penalty,10000,16.767,1,0.9977,3,0.0,1.0727567993183864,0.2309401076758502,0,1494.0,12.0,,
+main2,MOMA,moma,4,room_waste+time_penalty,10000,21.074,1,0.9971,3,0.0,1.1710358406270815,0.23094010767585024,0,1494.0,13.0,,
+main2,MOMA,moma,5,room_waste+time_penalty,10000,22.754,1,0.9966,7,0.0,1.8109396447351518,0.31471831698777725,0,1464.0,13.0,,
+main2,MOMA,moma,6,room_waste+time_penalty,10000,23.495,1,0.9964,5,0.0,1.5834523809544059,0.4381780460041329,0,1494.0,14.0,,
+main2,MOMA,moma,7,room_waste+time_penalty,10000,23.703,1,0.9965,4,0.0,0.9899026865374791,0.23094010767585002,0,1464.0,12.0,,
+main2,MOMA,moma,8,room_waste+time_penalty,10000,18.006,1,0.9987,2,0.0,1.5493333064123507,0.0,0,1464.0,15.0,,
+main2,MOMA,moma,9,room_waste+time_penalty,10000,17.924,1,0.9978,4,0.09000000000000002,0.5355792511872274,0.4725815626252609,0,1464.0,9.0,,
+main2,MOMA,moma,10,room_waste+time_penalty,10000,15.948,1,0.9981,4,0.0,0.8846692110820508,0.10000000000000013,0,1494.0,11.0,,
+main2,MOSA,mosa,1,room_waste+time_penalty,10000,10.456,1,1.0,6,0.2500000000000001,0.28284271247461906,3.510833468576701e-17,0,1494.0,6.0,,
+main2,MOSA,mosa,2,room_waste+time_penalty,10000,10.785,1,1.0,6,0.2500000000000001,0.32189514164974603,1.4895204919483638e-16,0,1464.0,7.0,,
+main2,MOSA,mosa,3,room_waste+time_penalty,10000,12.669,1,1.0,6,0.3900000000000001,0.21380711874576983,0.08164965809277255,0,1464.0,6.0,,
+main2,MOSA,mosa,4,room_waste+time_penalty,10000,10.918,1,0.9999,6,0.2500000000000001,0.28284271247461906,3.510833468576701e-17,0,1494.0,6.0,,
+main2,MOSA,mosa,5,room_waste+time_penalty,10000,18.704,1,1.0,7,0.2500000000000001,0.30236892706218255,0.1511857892036909,0,1464.0,6.0,,
+main2,MOSA,mosa,6,room_waste+time_penalty,10000,10.823,1,1.0,6,0.13000000000000006,0.4119495157457418,0.10327955589886445,0,1464.0,7.0,,
+main2,MOSA,mosa,7,room_waste+time_penalty,10000,11.551,1,1.0,8,0.19000000000000009,0.3571592214039621,9.383097129595137e-17,0,1464.0,5.0,,
+main2,MOSA,mosa,8,room_waste+time_penalty,10000,12.724,1,0.9998,8,0.0,0.86382782194921,0.15118578920369097,0,1464.0,8.0,,
+main2,MOSA,mosa,9,room_waste+time_penalty,10000,11.347,1,1.0,6,0.41000000000000014,0.19999999999999996,0.08164965809277255,0,1464.0,6.0,,
+main2,MOSA,mosa,10,room_waste+time_penalty,10000,12.376,1,1.0,7,0.2500000000000001,0.3021498367415327,1.0385185452638061e-16,0,1464.0,5.0,,
+main2,NSGA-II (penalty),nsga2,1,room_waste+time_penalty,10000,7.495,0,0.0,0,0.0,nan,nan,0,,,,
+main2,NSGA-II (penalty),nsga2,2,room_waste+time_penalty,10000,4.924,0,0.0,0,0.0,nan,nan,0,,,,
+main2,NSGA-II (penalty),nsga2,3,room_waste+time_penalty,10000,4.587,0,0.0,0,0.0,nan,nan,0,,,,
+main2,NSGA-II (penalty),nsga2,4,room_waste+time_penalty,10000,4.68,0,0.0,0,0.0,nan,nan,0,,,,
+main2,NSGA-II (penalty),nsga2,5,room_waste+time_penalty,10000,7.021,0,0.0,0,0.0,nan,nan,0,,,,
+main2,NSGA-II (penalty),nsga2,6,room_waste+time_penalty,10000,7.837,0,0.0,0,0.0,nan,nan,0,,,,
+main2,NSGA-II (penalty),nsga2,7,room_waste+time_penalty,10000,6.195,0,0.0,0,0.0,nan,nan,0,,,,
+main2,NSGA-II (penalty),nsga2,8,room_waste+time_penalty,10000,4.625,0,0.0,0,0.0,nan,nan,0,,,,
+main2,NSGA-II (penalty),nsga2,9,room_waste+time_penalty,10000,5.565,0,0.0,0,0.0,nan,nan,0,,,,
+main2,NSGA-II (penalty),nsga2,10,room_waste+time_penalty,10000,5.732,0,0.0,0,0.0,nan,nan,0,,,,
+main2,SPEA2,spea2,1,room_waste+time_penalty,10000,25.01,1,0.9973,5,0.19000000000000009,0.34142135623730946,0.10954451150103325,0,1464.0,7.0,,
+main2,SPEA2,spea2,2,room_waste+time_penalty,10000,26.956,1,0.997,6,0.03000000000000003,0.6656545423824972,0.15055453054181614,0,1494.0,8.0,,
+main2,SPEA2,spea2,3,room_waste+time_penalty,10000,18.739,1,0.9992,6,0.3900000000000001,0.21380711874576983,0.08164965809277255,0,1464.0,6.0,,
+main2,SPEA2,spea2,4,room_waste+time_penalty,10000,27.424,1,0.997,5,0.2300000000000001,0.36063773032202534,9.205483015737869e-17,0,1464.0,8.0,,
+main2,SPEA2,spea2,5,room_waste+time_penalty,10000,36.912,1,0.9961,6,0.03000000000000003,0.6741350085649476,0.469041575982343,0,1464.0,8.0,,
+main2,SPEA2,spea2,6,room_waste+time_penalty,10000,31.274,1,0.9954,6,0.19000000000000009,0.37668543599152565,0.3265986323710904,0,1464.0,7.0,,
+main2,SPEA2,spea2,7,room_waste+time_penalty,10000,18.625,1,0.9984,7,0.13000000000000006,0.44721359549995787,1.0385185452638061e-16,0,1464.0,7.0,,
+main2,SPEA2,spea2,8,room_waste+time_penalty,10000,30.082,1,0.9986,6,0.11000000000000004,0.5355792511872274,0.3468375647133631,0,1464.0,8.0,,
+main2,SPEA2,spea2,9,room_waste+time_penalty,10000,27.362,1,0.9971,7,0.0,0.7884845364709497,0.09759000729485345,0,1464.0,8.0,,
+main2,SPEA2,spea2,10,room_waste+time_penalty,10000,23.102,1,0.9974,5,0.11000000000000004,0.5610436519372345,0.10954451150103314,0,1464.0,9.0,,
+main2,Weighted Sum,weighted_sum,1,room_waste+time_penalty,10000,12.148,1,0.9999,2,0.0,0.8062914604033379,0.0,0,1464.0,7.0,,
+main2,Weighted Sum,weighted_sum,2,room_waste+time_penalty,10000,11.744,1,1.0,2,0.0900000000000001,0.4988241626193813,0.0,0,1464.0,6.0,,
+main2,Weighted Sum,weighted_sum,3,room_waste+time_penalty,10000,10.421,1,1.0,4,0.05000000000000006,0.5623493864222583,1.8129866073473578e-16,0,1464.0,6.0,,
+main2,Weighted Sum,weighted_sum,4,room_waste+time_penalty,10000,11.261,1,0.9999,3,0.09000000000000002,0.5692562410154524,0.4618802153517007,0,1464.0,8.0,,
+main2,Weighted Sum,weighted_sum,5,room_waste+time_penalty,10000,11.018,1,0.9999,3,0.2500000000000001,0.45610795019758527,0.5773502691896258,0,1464.0,7.0,,
+main2,Weighted Sum,weighted_sum,6,room_waste+time_penalty,10000,15.737,1,1.0,3,0.05000000000000006,0.5865080526872414,0.46188021535170065,0,1464.0,6.0,,
+main2,Weighted Sum,weighted_sum,7,room_waste+time_penalty,10000,12.698,1,0.9999,3,0.0,0.9915187004224187,1.3471506281091272,0,1464.0,6.0,,
+main2,Weighted Sum,weighted_sum,8,room_waste+time_penalty,10000,9.667,1,1.0,2,0.0,0.8256522535504444,0.0,0,1464.0,6.0,,
+main2,Weighted Sum,weighted_sum,9,room_waste+time_penalty,10000,13.877,1,0.9998,2,0.0,0.6239449068744968,0.0,0,1464.0,7.0,,
+main2,Weighted Sum,weighted_sum,10,room_waste+time_penalty,10000,14.074,1,0.9999,2,0.0,0.6331195739428469,0.0,0,1464.0,6.0,,
+main2,eps-Constraint,eps_constraint,1,room_waste+time_penalty,10000,14.542,1,1.0,5,0.0,0.7289253029067271,0.42531034420630875,0,1464.0,8.0,,
+main2,eps-Constraint,eps_constraint,2,room_waste+time_penalty,10000,11.274,1,0.9999,6,0.0,0.904966662140741,0.7246966159609034,0,1464.0,9.0,,
+main2,eps-Constraint,eps_constraint,3,room_waste+time_penalty,10000,14.978,1,1.0,3,0.3100000000000001,0.3692562410154523,1.0392304845413265,0,1464.0,8.0,,
+main2,eps-Constraint,eps_constraint,4,room_waste+time_penalty,10000,9.355,1,0.9999,6,0.050000000000000044,0.6660469856609713,0.48335249004182207,0,1464.0,6.0,,
+main2,eps-Constraint,eps_constraint,5,room_waste+time_penalty,10000,14.809,1,1.0,5,0.0,0.805736348142739,0.4898979485566357,0,1464.0,9.0,,
+main2,eps-Constraint,eps_constraint,6,room_waste+time_penalty,10000,14.935,1,1.0,5,0.010000000000000018,0.7845000344208958,0.819756061276768,0,1464.0,9.0,,
+main2,eps-Constraint,eps_constraint,7,room_waste+time_penalty,10000,9.26,1,0.9998,6,0.0,0.9732986987615385,0.15055453054181614,0,1464.0,7.0,,
+main2,eps-Constraint,eps_constraint,8,room_waste+time_penalty,10000,10.065,1,1.0,5,0.0,0.7884845364709497,0.43358966777357594,0,1464.0,9.0,,
+main2,eps-Constraint,eps_constraint,9,room_waste+time_penalty,10000,9.11,1,0.9998,5,0.050000000000000044,0.6660469856609713,0.7639080805669982,0,1464.0,7.0,,
+main2,eps-Constraint,eps_constraint,10,room_waste+time_penalty,10000,10.668,1,1.0,5,0.03000000000000003,0.6742257587471453,0.19206480387850575,0,1464.0,8.0,,
+many,Constrained NSGA-II,constrained_nsga2,1,student_gaps+teacher_gaps+room_waste+time_penalty,10000,41.46,1,0.998,41,0.09019588050000003,0.6656526455438936,0.08991672415453522,0,1464.0,13.0,1.0,10.0
+many,Constrained NSGA-II,constrained_nsga2,2,student_gaps+teacher_gaps+room_waste+time_penalty,10000,25.644,1,0.9975,50,0.2578938945000001,0.4808020135164577,0.10363610503585553,0,1464.0,11.0,2.0,7.0
+many,Constrained NSGA-II,constrained_nsga2,3,student_gaps+teacher_gaps+room_waste+time_penalty,10000,38.767,1,0.9979,36,0.11058347300000004,0.645371687128259,0.1482925409965633,0,1494.0,15.0,3.0,7.0
+many,Constrained NSGA-II,constrained_nsga2,4,student_gaps+teacher_gaps+room_waste+time_penalty,10000,26.514,1,0.9964,55,0.04007973750000002,0.825003286056059,0.11469985878952527,0,1494.0,13.0,3.0,9.0
+many,Constrained NSGA-II,constrained_nsga2,5,student_gaps+teacher_gaps+room_waste+time_penalty,10000,21.023,1,0.9973,62,0.39716640700000017,0.39163348572291584,0.13803892230216738,0,1464.0,10.0,2.0,5.0
+many,Constrained NSGA-II,constrained_nsga2,6,student_gaps+teacher_gaps+room_waste+time_penalty,10000,26.94,1,0.9965,48,0.052356216000000025,0.8066974745498819,0.14593211713902868,0,1494.0,14.0,3.0,7.0
+many,Constrained NSGA-II,constrained_nsga2,7,student_gaps+teacher_gaps+room_waste+time_penalty,10000,27.666,1,0.9972,48,0.09053262350000005,0.7044866917665007,0.08850862452548228,0,1494.0,14.0,4.0,8.0
+many,Constrained NSGA-II,constrained_nsga2,8,student_gaps+teacher_gaps+room_waste+time_penalty,10000,28.631,1,0.9978,28,0.39808879000000014,0.3750241499121101,0.11482530551584161,0,1494.0,10.0,2.0,6.0
+many,Constrained NSGA-II,constrained_nsga2,9,student_gaps+teacher_gaps+room_waste+time_penalty,10000,27.163,1,0.9978,57,0.12866510800000006,0.6166660396738408,0.12613997872348107,0,1524.0,11.0,2.0,9.0
+many,Constrained NSGA-II,constrained_nsga2,10,student_gaps+teacher_gaps+room_waste+time_penalty,10000,33.75,1,0.9972,57,0.23008331500000012,0.5295859150971144,0.134802563229545,0,1494.0,14.0,1.0,6.0
+many,MOEA/D,moead,1,student_gaps+teacher_gaps+room_waste+time_penalty,10000,47.632,1,0.9979,56,0.43909823100000017,0.32745556772219364,0.10901691436263525,1,1464.0,9.0,1.0,6.0
+many,MOEA/D,moead,2,student_gaps+teacher_gaps+room_waste+time_penalty,10000,40.061,1,0.9986,34,0.5403627075000003,0.3477129315321493,0.12029093130518281,0,1584.0,9.0,0.0,4.0
+many,MOEA/D,moead,3,student_gaps+teacher_gaps+room_waste+time_penalty,10000,40.612,1,0.9985,40,1.1391649665000005,0.0875806360598706,0.0905557703819412,28,1494.0,7.0,0.0,2.0
+many,MOEA/D,moead,4,student_gaps+teacher_gaps+room_waste+time_penalty,10000,42.465,1,0.9979,84,0.38078312800000014,0.4307562572161305,0.12942098549124031,0,1524.0,7.0,0.0,5.0
+many,MOEA/D,moead,5,student_gaps+teacher_gaps+room_waste+time_penalty,10000,33.951,1,0.9988,47,0.7956797860000003,0.23735432147865543,0.14935598276584003,0,1524.0,7.0,0.0,3.0
+many,MOEA/D,moead,6,student_gaps+teacher_gaps+room_waste+time_penalty,10000,38.797,1,0.9988,44,1.0258363060000004,0.13894550992916163,0.15867880788167762,8,1464.0,8.0,0.0,2.0
+many,MOEA/D,moead,7,student_gaps+teacher_gaps+room_waste+time_penalty,10000,38.9,1,0.9984,63,0.43611878750000016,0.3548719058607244,0.15185736226507487,0,1464.0,8.0,1.0,6.0
+many,MOEA/D,moead,8,student_gaps+teacher_gaps+room_waste+time_penalty,10000,34.184,1,0.9986,50,0.6665900890000003,0.24732966658805455,0.1064164639963238,6,1464.0,9.0,0.0,5.0
+many,MOEA/D,moead,9,student_gaps+teacher_gaps+room_waste+time_penalty,10000,35.18,1,0.9985,78,0.4311335270000002,0.36481416101317554,0.09593893250900065,0,1494.0,9.0,0.0,7.0
+many,MOEA/D,moead,10,student_gaps+teacher_gaps+room_waste+time_penalty,10000,37.631,1,0.9985,51,0.47548843650000017,0.3159759664326985,0.12523320990687217,0,1524.0,9.0,0.0,6.0
+many,NSGA-III,nsga3,1,student_gaps+teacher_gaps+room_waste+time_penalty,10000,31.603,1,0.9971,46,0.13209842250000006,0.6447303068846004,0.17483856339070586,0,1524.0,13.0,3.0,8.0
+many,NSGA-III,nsga3,2,student_gaps+teacher_gaps+room_waste+time_penalty,10000,39.886,1,0.996,51,0.059296050000000024,0.7385708037842106,0.20948253777211032,0,1494.0,13.0,4.0,10.0
+many,NSGA-III,nsga3,3,student_gaps+teacher_gaps+room_waste+time_penalty,10000,29.527,1,0.9965,42,0.13329898450000005,0.6406920552992159,0.11999808817027292,0,1524.0,12.0,5.0,8.0
+many,NSGA-III,nsga3,4,student_gaps+teacher_gaps+room_waste+time_penalty,10000,43.665,1,0.9966,47,0.016617535000000006,0.8389815792083098,0.17512231088522484,0,1494.0,13.0,4.0,9.0
+many,NSGA-III,nsga3,5,student_gaps+teacher_gaps+room_waste+time_penalty,10000,33.485,1,0.9968,68,0.0071448080000000025,0.9899057948240754,0.16493101554112813,0,1494.0,15.0,4.0,10.0
+many,NSGA-III,nsga3,6,student_gaps+teacher_gaps+room_waste+time_penalty,10000,26.73,1,0.9963,26,0.06487427100000003,0.7334912286947278,0.11782022082766634,0,1494.0,16.0,4.0,8.0
+many,NSGA-III,nsga3,7,student_gaps+teacher_gaps+room_waste+time_penalty,10000,35.875,1,0.996,60,0.006288309500000003,0.9951002352978988,0.12430754740296669,0,1524.0,15.0,4.0,10.0
+many,NSGA-III,nsga3,8,student_gaps+teacher_gaps+room_waste+time_penalty,10000,32.238,1,0.9964,64,0.03693192250000001,0.8855667483229148,0.13185148147783693,0,1524.0,14.0,3.0,9.0
+many,NSGA-III,nsga3,9,student_gaps+teacher_gaps+room_waste+time_penalty,10000,31.04,1,0.9967,48,0.04463308850000002,0.8320852823552993,0.10477092921173302,0,1494.0,15.0,4.0,9.0
+many,NSGA-III,nsga3,10,student_gaps+teacher_gaps+room_waste+time_penalty,10000,26.488,1,0.9968,44,0.03895970100000002,0.8649851074480288,0.1865102639997632,0,1524.0,16.0,5.0,7.0
+sens,C-NSGA-II pop=200,constrained_nsga2,1,room_waste+time_penalty,10000,21.203,1,0.9949,5,0.0,1.28467611753441,0.08944271909999148,0,1464.0,13.0,,
+sens,C-NSGA-II pop=200,constrained_nsga2,2,room_waste+time_penalty,10000,36.654,1,0.9965,4,0.0,1.8760255476164405,0.1000000000000001,0,1494.0,16.0,,
+sens,C-NSGA-II pop=200,constrained_nsga2,3,room_waste+time_penalty,10000,24.568,1,0.9949,3,0.0,1.7426929026232758,0.11547005383792475,0,1494.0,16.0,,
+sens,C-NSGA-II pop=200,constrained_nsga2,4,room_waste+time_penalty,10000,37.569,1,0.9952,5,0.0,1.2654982371101333,0.12995725793078614,0,1464.0,13.0,,
+sens,C-NSGA-II pop=200,constrained_nsga2,5,room_waste+time_penalty,10000,66.99,1,0.9958,4,0.0,1.0452333307525568,0.19148542155126771,0,1494.0,12.0,,
+sens,C-NSGA-II pop=200,constrained_nsga2,6,room_waste+time_penalty,10000,36.669,1,0.997,6,0.0,1.0059926447155898,0.2963981306483761,0,1464.0,11.0,,
+sens,C-NSGA-II pop=200,constrained_nsga2,7,room_waste+time_penalty,10000,44.069,1,0.9947,4,0.0,1.8760255476164405,0.11547005383792484,0,1494.0,16.0,,
+sens,C-NSGA-II pop=200,constrained_nsga2,8,room_waste+time_penalty,10000,53.119,1,0.996,5,0.0,1.0727567993183864,0.10954451150103325,0,1464.0,12.0,,
+sens,C-NSGA-II pop=200,constrained_nsga2,9,room_waste+time_penalty,10000,29.475,1,0.9969,2,0.0,1.1710358406270815,0.0,0,1524.0,13.0,,
+sens,C-NSGA-II pop=200,constrained_nsga2,10,room_waste+time_penalty,10000,42.854,1,0.9971,4,0.0,1.0651743976043062,0.1914854215512677,0,1464.0,12.0,,
+sens,C-NSGA-II pop=50,constrained_nsga2,1,room_waste+time_penalty,10000,16.083,1,0.9975,6,0.41000000000000014,0.19999999999999996,2.482534153247273e-17,0,1464.0,6.0,,
+sens,C-NSGA-II pop=50,constrained_nsga2,2,room_waste+time_penalty,10000,15.002,1,0.9991,7,0.2500000000000001,0.28284271247461906,3.925231146709438e-17,0,1464.0,6.0,,
+sens,C-NSGA-II pop=50,constrained_nsga2,3,room_waste+time_penalty,10000,22.482,1,0.9968,5,0.2300000000000001,0.36063773032202534,9.205483015737869e-17,0,1464.0,8.0,,
+sens,C-NSGA-II pop=50,constrained_nsga2,4,room_waste+time_penalty,10000,25.056,1,0.9985,4,0.3300000000000001,0.3280539750987926,3.204937810639273e-17,0,1464.0,8.0,,
+sens,C-NSGA-II pop=50,constrained_nsga2,5,room_waste+time_penalty,10000,15.315,1,0.9972,6,0.41000000000000014,0.19999999999999996,2.482534153247273e-17,0,1464.0,6.0,,
+sens,C-NSGA-II pop=50,constrained_nsga2,6,room_waste+time_penalty,10000,22.608,1,0.9997,5,0.3900000000000001,0.2412022659166596,4.8074067159589095e-17,0,1464.0,7.0,,
+sens,C-NSGA-II pop=50,constrained_nsga2,7,room_waste+time_penalty,10000,20.816,1,0.9995,5,0.5500000000000002,0.06666666666666667,0.08944271909999166,4,1464.0,6.0,,
+sens,C-NSGA-II pop=50,constrained_nsga2,8,room_waste+time_penalty,10000,36.056,1,0.9991,6,0.5900000000000002,0.033333333333333326,0.08164965809277257,5,1464.0,5.0,,
+sens,C-NSGA-II pop=50,constrained_nsga2,9,room_waste+time_penalty,10000,31.17,1,0.9995,6,0.41000000000000014,0.19999999999999996,2.482534153247273e-17,0,1464.0,6.0,,
+sens,C-NSGA-II pop=50,constrained_nsga2,10,room_waste+time_penalty,10000,33.582,1,0.9994,5,0.3900000000000001,0.2412022659166596,4.8074067159589095e-17,0,1464.0,7.0,,
+sens,MOEA/D T=5,moead,1,room_waste+time_penalty,10000,52.09,1,0.999,7,0.03000000000000003,0.7076889891848839,0.09759000729485327,0,1464.0,7.0,,
+sens,MOEA/D T=5,moead,2,room_waste+time_penalty,10000,52.45,1,0.9983,6,0.03000000000000003,0.6788028332003643,0.08164965809277264,0,1464.0,8.0,,
+sens,MOEA/D T=5,moead,3,room_waste+time_penalty,10000,33.62,1,0.9985,6,0.010000000000000018,0.6717780028735466,0.19663841605003501,0,1494.0,6.0,,
+sens,MOEA/D T=5,moead,4,room_waste+time_penalty,10000,40.526,1,0.9986,9,0.07000000000000009,0.520720598494575,0.18189672826383213,0,1464.0,6.0,,
+sens,MOEA/D T=5,moead,5,room_waste+time_penalty,10000,26.899,1,0.9989,6,0.0,0.8386070061773125,0.11482676162456734,0,1464.0,8.0,,
+sens,MOEA/D T=5,moead,6,room_waste+time_penalty,10000,29.537,1,0.999,7,0.050000000000000044,0.5879421273107174,0.10690449676496984,0,1494.0,6.0,,
+sens,MOEA/D T=5,moead,7,room_waste+time_penalty,10000,35.193,1,0.9989,7,0.11000000000000004,0.5380727444236516,0.5386638378049247,0,1464.0,7.0,,
+sens,MOEA/D T=5,moead,8,room_waste+time_penalty,10000,30.876,1,0.9988,8,0.010000000000000018,0.7595983804864302,0.38338508967372076,0,1494.0,6.0,,
+sens,MOEA/D T=5,moead,9,room_waste+time_penalty,10000,37.214,1,0.9987,7,0.03000000000000003,0.6656545423824972,0.07559289460184539,0,1464.0,8.0,,
+sens,MOEA/D T=5,moead,10,room_waste+time_penalty,10000,38.884,1,0.9985,7,0.010000000000000018,0.738362066764587,0.10690449676496977,0,1464.0,8.0,,
+sens,MOEA/D T=50,moead,1,room_waste+time_penalty,10000,59.842,1,0.9985,6,0.27000000000000013,0.27475468957064286,0.5477225575051662,0,1464.0,6.0,,
+sens,MOEA/D T=50,moead,2,room_waste+time_penalty,10000,42.886,1,0.9965,6,0.2500000000000001,0.30236892706218255,0.408248290463863,0,1464.0,7.0,,
+sens,MOEA/D T=50,moead,3,room_waste+time_penalty,10000,39.498,1,0.9977,6,0.35000000000000014,0.22761423749153964,0.16329931618554525,0,1464.0,6.0,,
+sens,MOEA/D T=50,moead,4,room_waste+time_penalty,10000,47.93,1,0.9972,4,0.2500000000000001,0.33302349283048566,0.11547005383792501,0,1464.0,8.0,,
+sens,MOEA/D T=50,moead,5,room_waste+time_penalty,10000,51.321,1,0.9988,7,0.2500000000000001,0.28284271247461906,3.925231146709438e-17,0,1464.0,6.0,,
+sens,MOEA/D T=50,moead,6,room_waste+time_penalty,10000,59.826,1,0.9978,7,0.13000000000000006,0.4726779962499649,0.2927700218845599,0,1464.0,7.0,,
+sens,MOEA/D T=50,moead,7,room_waste+time_penalty,10000,45.72,1,0.9978,6,0.0900000000000001,0.44721359549995787,3.510833468576701e-17,0,1464.0,7.0,,
+sens,MOEA/D T=50,moead,8,room_waste+time_penalty,10000,46.945,1,0.9956,6,0.41000000000000014,0.19999999999999996,0.08164965809277255,0,1464.0,6.0,,
+sens,MOEA/D T=50,moead,9,room_waste+time_penalty,10000,48.198,1,0.9966,6,0.2500000000000001,0.30236892706218255,0.08164965809277266,0,1464.0,7.0,,
+sens,MOEA/D T=50,moead,10,room_waste+time_penalty,10000,58.325,1,0.9985,6,0.2500000000000001,0.30236892706218255,0.08164965809277266,0,1464.0,7.0,,
+sens,MOSA alpha=0.9,mosa,1,room_waste+time_penalty,10000,16.208,1,1.0,6,0.3100000000000001,0.24142135623730945,4.965068306494546e-17,0,1464.0,6.0,,
+sens,MOSA alpha=0.9,mosa,2,room_waste+time_penalty,10000,11.072,1,1.0,5,0.5900000000000002,0.04714045207910317,6.798699777552591e-17,5,1464.0,6.0,,
+sens,MOSA alpha=0.9,mosa,3,room_waste+time_penalty,10000,13.0,1,1.0,6,0.5900000000000002,0.04714045207910317,0.16329931618554513,5,1464.0,5.0,,
+sens,MOSA alpha=0.9,mosa,4,room_waste+time_penalty,10000,19.198,1,0.9999,6,0.5900000000000002,0.033333333333333326,0.08164965809277257,5,1464.0,5.0,,
+sens,MOSA alpha=0.9,mosa,5,room_waste+time_penalty,10000,11.549,1,1.0,6,0.35000000000000014,0.22761423749153964,2.482534153247273e-17,0,1464.0,6.0,,
+sens,MOSA alpha=0.9,mosa,6,room_waste+time_penalty,10000,19.57,1,1.0,8,0.13000000000000006,0.44721359549995787,1.1681861718163573e-16,0,1464.0,6.0,,
+sens,MOSA alpha=0.9,mosa,7,room_waste+time_penalty,10000,19.147,1,1.0,6,0.3900000000000001,0.21380711874576983,0.10327955589886438,0,1464.0,6.0,,
+sens,MOSA alpha=0.9,mosa,8,room_waste+time_penalty,10000,12.467,1,0.9999,6,0.41000000000000014,0.19999999999999996,2.482534153247273e-17,0,1464.0,6.0,,
+sens,MOSA alpha=0.9,mosa,9,room_waste+time_penalty,10000,11.212,1,1.0,8,0.2500000000000001,0.28284271247461906,4.1962486042515756e-17,0,1464.0,5.0,,
+sens,MOSA alpha=0.9,mosa,10,room_waste+time_penalty,10000,10.859,1,1.0,4,0.5300000000000001,0.14142135623730953,4.5324665183683945e-17,4,1464.0,7.0,,
+sens,MOSA alpha=0.99,mosa,1,room_waste+time_penalty,10000,11.134,1,1.0,7,0.0,1.4598628979104908,0.10690449676496964,0,1554.0,10.0,,
+sens,MOSA alpha=0.99,mosa,2,room_waste+time_penalty,10000,11.46,1,0.9997,6,0.0,1.7240603486534727,0.23380903889000254,0,1524.0,13.0,,
+sens,MOSA alpha=0.99,mosa,3,room_waste+time_penalty,10000,11.017,1,0.9999,6,0.0,1.0617697381522408,0.08164965809277255,0,1494.0,10.0,,
+sens,MOSA alpha=0.99,mosa,4,room_waste+time_penalty,10000,10.252,1,1.0,6,0.0,1.3301963488859265,0.10327955589886433,0,1524.0,12.0,,
+sens,MOSA alpha=0.99,mosa,5,room_waste+time_penalty,10000,11.568,1,0.9995,6,0.0,2.0313227871315687,0.10327955589886431,0,1524.0,15.0,,
+sens,MOSA alpha=0.99,mosa,6,room_waste+time_penalty,10000,16.222,1,0.9998,7,0.0,1.6882375959567553,0.2290999181291266,0,1524.0,13.0,,
+sens,MOSA alpha=0.99,mosa,7,room_waste+time_penalty,10000,12.875,1,0.9998,6,0.0,1.2123664305763115,0.3098386676965934,0,1494.0,10.0,,
+sens,MOSA alpha=0.99,mosa,8,room_waste+time_penalty,10000,12.86,1,0.9997,6,0.0,2.901035069154226,0.034426518632954664,0,1554.0,21.0,,
+sens,MOSA alpha=0.99,mosa,9,room_waste+time_penalty,10000,10.505,1,1.0,8,0.0,1.626226862043082,0.10350983390135317,0,1494.0,12.0,,
+sens,MOSA alpha=0.99,mosa,10,room_waste+time_penalty,10000,16.269,1,1.0,7,0.0,1.5191757591379638,0.2225394561056746,0,1524.0,12.0,,

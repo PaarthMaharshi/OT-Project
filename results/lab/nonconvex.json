@@ -1,0 +1,10 @@
+{
+  "reference_points": 6,
+  "supported": 6,
+  "unsupported": 0,
+  "ws_found_supported": 0,
+  "ws_found_unsupported": 0,
+  "eps_found_unsupported": 0,
+  "ws_distinct_points": 17,
+  "eps_distinct_points": 39
+}
